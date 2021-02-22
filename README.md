@@ -2,7 +2,7 @@
 An incident is an event that could lead to loss of, or disruption to, an organization's operations, services or functions. Incident management is a term describing the activities of an organization to identify, analyze, and correct hazards to prevent a future recurrence.
 The objective of the project is to build Machine learning models to predict the time required to close an incident and to predict whether the incident will meet the SLA (Service Lease Agreement or not.
 
-# DATA DESCRIPTION
+### DATA DESCRIPTION
 This dataset has been downloaded from the UCI Machine Learning Repository.
  Number of instances: 141,712 events (24,918 incidents)
  Number of attributes: 36 attributes (1 case identifier, 1 state identifier, 32 descriptive attributes, 2
@@ -14,7 +14,7 @@ process are present in the log.
 Attributes used to record textual information are not placed in this log.
 The missing values should be considered as unknown information.
 
-# Attribute Information:
+### Attribute Information:
 1. number: incident identifier (24,918 different values);
 2. incident state: eight levels controlling the incident management process transitions from opening
 until closing the case;
